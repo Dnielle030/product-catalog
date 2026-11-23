@@ -39,3 +39,6 @@ header {
   background: #fff;
   border-radius: 10px;
 }
+.result-count {
+  font-weight: 600;
+}
