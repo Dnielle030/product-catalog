@@ -52,6 +52,11 @@ function App() {
     displayedProducts.sort((a, b) => b.price - a.price);
   }
 
+  // Update the browser tab title whenever the number of results changes
+  useEffect(() => {
+    document.title = `CvSU Mini Store (${displayedProducts.length} results)`;
+  }, [displayedProducts.length]);
+
   return (
     <div className="app">
       <header>
