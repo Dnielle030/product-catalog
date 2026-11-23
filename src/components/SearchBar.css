@@ -19,14 +19,14 @@
 }
 
 .search-bar button {
-  background: #1b5e20;
+  background: #111;
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
 .search-bar button:hover {
-  background: #2e7d32;
+  background: #333;
 }
 
 @media (max-width: 500px) {
